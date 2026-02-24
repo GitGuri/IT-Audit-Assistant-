@@ -1,0 +1,110 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark teal background -->
+  <rect width="200" height="200" fill="#004d40"/>
+  
+  <!-- Hexagon outline with 3D shadow effect -->
+  <defs>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#003d33;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#005a4f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Hexagon shadow/3D effect on top and right edges -->
+  <polygon points="100,20 160,50 160,110 100,140 40,110 40,50" 
+           fill="none" 
+           stroke="white" 
+           stroke-width="4"
+           stroke-linejoin="round"/>
+  
+  <!-- Shadow on top edge -->
+  <polygon points="100,20 160,50 100,50" 
+           fill="#003d33" 
+           opacity="0.7"/>
+  
+  <!-- Shadow on right edge -->
+  <polygon points="160,50 160,110 100,110 100,50" 
+           fill="#003d33" 
+           opacity="0.5"/>
+  
+  <!-- Central stylized 'A' -->
+  <!-- Left diagonal of A -->
+  <line x1="80" y1="100" x2="100" y2="50" 
+        stroke="white" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <!-- Right diagonal of A -->
+  <line x1="120" y1="100" x2="100" y2="50" 
+        stroke="white" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <!-- Chevron/V-shaped horizontal bar -->
+  <path d="M 90 85 L 100 75 L 110 85" 
+        stroke="white" 
+        stroke-width="8" 
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  
+  <!-- Teal gradient fill in negative spaces of A -->
+  <!-- Top triangle -->
+  <polygon points="80,100 100,50 120,100" 
+           fill="url(#tealGradient)" 
+           opacity="0.6"/>
+  
+  <!-- Left bottom area -->
+  <polygon points="80,100 90,85 100,100" 
+           fill="url(#tealGradient)" 
+           opacity="0.5"/>
+  
+  <!-- Right bottom area -->
+  <polygon points="120,100 110,85 100,100" 
+           fill="url(#tealGradient)" 
+           opacity="0.5"/>
+  
+  <!-- Upper left L-shape (open end pointing inward) -->
+  <path d="M 50 50 L 70 50 L 70 70 L 50 70" 
+        stroke="white" 
+        stroke-width="6" 
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  <polygon points="50,50 70,50 70,70 50,70" 
+           fill="url(#tealGradient)" 
+           opacity="0.4"/>
+  
+  <!-- Upper right L-shape (open end pointing inward) -->
+  <path d="M 130 50 L 150 50 L 150 70 L 130 70" 
+        stroke="white" 
+        stroke-width="6" 
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  <polygon points="130,50 150,50 150,70 130,70" 
+           fill="url(#tealGradient)" 
+           opacity="0.4"/>
+  
+  <!-- Lower left L-shape (open end pointing upward/inward) -->
+  <path d="M 50 130 L 50 150 L 70 150 L 70 130" 
+        stroke="white" 
+        stroke-width="6" 
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  <polygon points="50,130 50,150 70,150 70,130" 
+           fill="url(#tealGradient)" 
+           opacity="0.4"/>
+  
+  <!-- Lower right L-shape (open end pointing upward/inward) -->
+  <path d="M 130 130 L 130 150 L 150 150 L 150 130" 
+        stroke="white" 
+        stroke-width="6" 
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  <polygon points="130,130 130,150 150,150 150,130" 
+           fill="url(#tealGradient)" 
+           opacity="0.4"/>
+</svg>
